@@ -1,0 +1,97 @@
+
+#outMostFrame{
+
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+
+    background-color: azure;
+    border: 2px solid black;
+
+    margin: auto;
+    margin-top: 2.3em;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    box-shadow: 10px 10px 10px rgba(217, 218, 225, 0.9);
+}
+
+#message{
+    
+    color: rgb(46, 135, 236);
+
+    padding: 0.6em;
+
+    font-family: Verdana ;
+    font-size: 1.3em;
+   
+}
+
+#rollBtn{
+    font-size: 1.1em;
+    padding: 0.1em 1em;
+    background-color: #5287d7;
+    border-radius: 0.2em;
+    color : white;
+
+    font-family: 'Lucida Console';
+
+    cursor: pointer;
+    transition: 0.25s;
+
+    box-shadow: 10px 10px 10px rgba(217, 218, 225, 0.9);
+
+    width : 5em
+
+    
+}
+
+#rollBtn:hover{
+    background-color: #315283;
+}
+
+#rollBtn:active{
+    background-color: #397adc;
+    box-shadow: none;
+}
+
+image{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#rollResult {
+    width: 5em;
+    height: 5em;
+}
+
+#rollResult img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+#rollResult{
+    
+    margin-top: 1em;
+    border-radius: 0.5em;
+    
+    padding: 0.2em;
+    margin: 1em;
+
+    border: 2px solid black;
+    
+    width : 5em;
+    height: 5em;
+
+    
+
+    
+} 
+
